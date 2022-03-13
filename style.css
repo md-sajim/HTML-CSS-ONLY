@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(/img/covarpase.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.minu-var {
+  background-color: rgb(0, 100, 0);
+  text-align: center;
+}
+.minu-var ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.minu-var ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.minu-var ul li a {
+  text-decoration: none;
+  color: #fff;
+}
