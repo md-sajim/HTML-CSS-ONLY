@@ -27,3 +27,52 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.active,
+.minu-var ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+.minu-var .fa-solid {
+  margin-right: 8px;
+}
+.sub-1 {
+  display: none;
+}
+.minu-var ul li:hover .sub-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.minu-var ul li:hover .sub-1 ul {
+  display: block;
+  margin: 10px;
+}
+.minu-var ul li:hover .sub-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.minu-var ul li:hover .sub-1 ul li:last-child {
+  border-bottom: none;
+}
+.minu-var ul li:hover .sub-1 ul li a:hover {
+  color: #52e931;
+}
+.fa-angle-right {
+  float: right;
+}
+.sum-manu-2 {
+  display: none;
+}
+.hover-me:hover .sum-manu-2 {
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 160px;
+  background: rgb(0, 100, 0);
+}
